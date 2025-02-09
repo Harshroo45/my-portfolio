@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaInstagram, FaCode } from "react-icons/fa";
+import { HashRouter, BrowserRouter } from 'react-router-dom';
 import "./App.css";
 import SVERI from './assets/sveri-logo.png';
 import Vidnyan from './assets/vidnyan-logo.png';
@@ -20,6 +21,8 @@ const skills = [
   { category: "Version Control & OS", skills: [{ name: "Git", percentage: 90 }, { name: "GitHub", percentage: 85 }, { name: "Linux", percentage: 80 }], color: "🟡" },
   { category: "Tools", skills: [{ name: "Android Studio", percentage: 75 }, { name: "Eclipse", percentage: 70 }, { name: "IntelliJ IDEA", percentage: 65 }], color: "🟠" }
 ];
+
+const Router = process.env.NODE_ENV === 'production' ? BrowserRouter : HashRouter;
 
 const Portfolio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -81,7 +84,7 @@ const Portfolio = () => {
   };
 
   return (
-    <>
+    <Router>
       <div className="container">
         <StarsEffect /> {/* Add the StarsEffect component */}
         {/* Navbar */}
@@ -287,7 +290,7 @@ const Portfolio = () => {
           </p>
         </footer>
       </div>
-    </>
+    </Router>
   );
 };
 
