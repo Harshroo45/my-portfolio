@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.01f2cfad.css",
+    "main.js": "/my-portfolio/static/js/main.171d456e.js",
+    "static/js/453.94930a12.chunk.js": "/my-portfolio/static/js/453.94930a12.chunk.js",
+    "static/media/my-image.png": "/my-portfolio/static/media/my-image.8a7e520f32463a99ce0f.png",
+    "static/media/ai-cert-logo.png": "/my-portfolio/static/media/ai-cert-logo.465d5f86401287148ed8.png",
+    "static/media/java-cert-logo.png": "/my-portfolio/static/media/java-cert-logo.465d5f86401287148ed8.png",
+    "static/media/edunet-logo.png": "/my-portfolio/static/media/edunet-logo.5ef1a935b633394c6db1.png",
+    "static/media/numetry-logo.png": "/my-portfolio/static/media/numetry-logo.5ef1a935b633394c6db1.png",
+    "static/media/shivaji-logo.png": "/my-portfolio/static/media/shivaji-logo.9f989f229ae5d54b8bb4.png",
+    "static/media/sveri-logo.png": "/my-portfolio/static/media/sveri-logo.9f989f229ae5d54b8bb4.png",
+    "static/media/vidnyan-logo.png": "/my-portfolio/static/media/vidnyan-logo.9f989f229ae5d54b8bb4.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.01f2cfad.css.map": "/my-portfolio/static/css/main.01f2cfad.css.map",
+    "main.171d456e.js.map": "/my-portfolio/static/js/main.171d456e.js.map",
+    "453.94930a12.chunk.js.map": "/my-portfolio/static/js/453.94930a12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f2cfad.css",
+    "static/js/main.171d456e.js"
+  ]
+}
